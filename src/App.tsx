@@ -60,6 +60,7 @@ function App() {
                 </li>
               </ul>
             </div>
+            <h1 className="fs-1">Hey there! I'm Kaiyo.</h1>
           </div>
         </div>
       </div>

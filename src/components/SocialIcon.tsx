@@ -1,16 +1,17 @@
 interface Props {
   source: string;
   goto: string;
+  label: string;
 }
 
 const style = {
   filter: "invert(100%)",
 };
 
-const SocialIcon = ({ source, goto }: Props) => {
+const SocialIcon = ({ source, goto, label }: Props) => {
   return (
-    <a href={goto} target="_blank">
-      <img src={source} style={style} className="img-fluid"></img>
+    <a href={goto} target="_blank" className="link-underline-dark link-light">
+      <img src={source} style={style} className="img-fluid"></img> - {label}
     </a>
   );
 };

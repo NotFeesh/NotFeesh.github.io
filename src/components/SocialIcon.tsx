@@ -9,8 +9,8 @@ const style = {
 
 const SocialIcon = ({ source, goto }: Props) => {
   return (
-    <a href="goto">
-      <img src={source} style={style}></img>
+    <a href={goto} target="_blank">
+      <img src={source} style={style} className="img-fluid"></img>
     </a>
   );
 };

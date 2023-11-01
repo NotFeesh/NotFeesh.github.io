@@ -1,6 +1,6 @@
 const Heading = () => {
   return (
-    <nav className="navbar fixed-top navbar-expand-md headspace">
+    <nav className="navbar navbar-expand-md headspace">
       <div className="container-fluid">
         <a
           className="navbar-brand font-monospace fs-1 position-relative start-5"

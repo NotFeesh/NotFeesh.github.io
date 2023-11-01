@@ -2,10 +2,6 @@
   cursor: none;
 }
 
-body {
-  background-color: #1b1b1f;
-}
-
 @media only screen and (max-width: 991px) {
   .content-desktop {
     display: none;

@@ -15,7 +15,7 @@ function App() {
       <Heading></Heading>
       <div className="container-fluid">
         <div className="row ms-5 me-5">
-          <div className="col-2 border border-primary">
+          <div className="col-2 border border-primary position-sticky content-desktop">
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <SocialIcon
@@ -40,8 +40,33 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className="col-3 border border-danger">asdfasdfasdf</div>
-          <div className="col border border-secondary"></div>
+          <div className="col border border-secondary">
+            <div className="content-mobile">
+              <ul className="list-group">
+                <li className="list-group-item border-0">
+                  <SocialIcon
+                    source={githubIcon}
+                    goto="https://github.com/NotFeesh"
+                    hasLabel={false}
+                  />
+                </li>
+                <li className="list-group-item border-0">
+                  <SocialIcon
+                    source={instagramIcon}
+                    goto="https://www.instagram.com/kaiyo.jy/"
+                    hasLabel={false}
+                  />
+                </li>
+                <li className="list-group-item border-0">
+                  <SocialIcon
+                    source={linkedinIcon}
+                    goto="https://www.linkedin.com/in/kaiyo-igaki/"
+                    hasLabel={false}
+                  />
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </>

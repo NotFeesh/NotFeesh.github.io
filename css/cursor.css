@@ -8,6 +8,12 @@
   }
 }
 
+@media only screen and (min-width: 991px) {
+  .content-mobile {
+    display: none;
+  }
+}
+
 .cursor-dot {
   width: 10px;
   height: 10px;

@@ -4,7 +4,7 @@ import * as constants from "../constants";
 const SocialIconList = () => {
   return (
     <>
-      <div className="content-mobile border border-primary">
+      <div className="content-mobile">
         <ul className="list-group">
           <li className="list-group-item border-0">
             <SocialIcon
@@ -29,7 +29,7 @@ const SocialIconList = () => {
           </li>
         </ul>
       </div>
-      <div className="col-2 border border-primary position-sticky content-desktop">
+      <div className="col-2 content-desktop">
         <ul className="list-group list-group-flush">
           <li className="list-group-item">
             <SocialIcon

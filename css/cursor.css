@@ -1,5 +1,6 @@
 * {
   cursor: none;
+  scroll-behavior: smooth;
 }
 
 @media only screen and (max-width: 991px) {

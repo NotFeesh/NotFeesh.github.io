@@ -30,7 +30,7 @@ const SocialIconList = () => {
         </ul>
       </div>
       <div className="col-2 content-desktop">
-        <ul className="list-group list-group-flush">
+        <ul className="position-fixed list-group list-group-flush">
           <li className="list-group-item">
             <SocialIcon
               source={constants.githubIcon}

@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const offset = -70;
+const offset = -100;
 const duration = 0;
 
 const Heading = () => {

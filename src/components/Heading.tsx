@@ -1,6 +1,6 @@
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const offset = -100;
+const offset = -70;
 const duration = 0;
 
 const Heading = () => {
@@ -14,7 +14,7 @@ const Heading = () => {
           smooth={true}
           offset={offset}
           duration={duration}
-          className="navbar-brand font-monospace fs-1 position-relative start-5"
+          className="navbar-brand font-monospace fs-1 position-relative start-3"
         >
           <span className="text-purple font-monospace">{"< "}</span>
           KAIYO

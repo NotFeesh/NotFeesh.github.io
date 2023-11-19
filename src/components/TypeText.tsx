@@ -14,7 +14,7 @@ function TypeText({ strings }: Props) {
       // Speed settings, try diffrent values untill you get good results
       startDelay: 500,
       typeSpeed: 50,
-      backSpeed: 25,
+      backSpeed: 30,
       backDelay: 1000,
       smartBackspace: true,
       loop: true,

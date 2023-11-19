@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Heading from "./components/Heading";
 import SocialIconList from "./components/SocialIconList";
+import TypedText from "./components/TypeText";
+import TypeText from "./components/TypeText";
 
 function App() {
   return (
@@ -13,7 +15,12 @@ function App() {
             <div id="aboutme">
               <p className="fs-1">Hey there! I'm Kaiyo.</p>
               <p className="fs-3">
-                A high school junior and aspiring developer.
+                A high school junior and aspiring developer. <br /> I love{" "}
+                <span className="text-danger">
+                  <TypeText
+                    strings={["challenges", "learning", "growing", "VALORANT"]}
+                  ></TypeText>
+                </span>
                 <br />
                 <br />
                 <br />
